@@ -8,7 +8,7 @@ This project analyzes financial stock time-series data to compute a 5-day Simple
 
 ## Implementations
 1. **Algorithmic Logic:** Custom `for` loop iteration with `iloc` slicing to compute rolling windows manually.
-2. **Pandas Vectorization:** `.rolling(window=20).mean()` for optimized time-series processing.
+2. **Pandas Vectorization:** `.rolling(window=5).mean()` for optimized time-series processing.
 3. **Data Visualization:** `matplotlib` plot highlighting price trends against moving averages.
 
 ## Tech Stack
