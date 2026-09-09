@@ -1,7 +1,7 @@
 # Stock Moving Average Analysis
 
 ## Overview
-This project analyzes financial stock time-series data to compute a 20-day Simple Moving Average (SMA). It demonstrates both manual loop logic and vectorized Pandas operations.
+This project analyzes financial stock time-series data to compute a 5-day Simple Moving Average (SMA). It demonstrates both manual loop logic and vectorized Pandas operations.
 
 ## Visual Output
 ![Stock Chart](closing_stock_price_vs_5_day_average.png)
