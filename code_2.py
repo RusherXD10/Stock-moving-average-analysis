@@ -4,7 +4,7 @@ import pandas as pd
 
 data = pd.read_csv("stocks.csv")
 
-#We are interchanging the columns of the data to a specific order. The new order is as follows: "Date", "Open", "High", "Low", "Close", "Adj Close", "Volume", "Avg Price".
+#We are interchanging the columns of the data to a specific order.
 
 cols = list(data.columns)
 cols[1] , cols[3] = cols[3], cols[1]
