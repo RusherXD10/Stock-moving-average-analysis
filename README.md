@@ -4,7 +4,7 @@
 This project analyzes financial stock time-series data to compute a 20-day Simple Moving Average (SMA). It demonstrates both manual loop logic and vectorized Pandas operations.
 
 ## Visual Output
-![Stock Chart](stock_chart.png)
+![Stock Chart](closing_stock_price_vs_5_day_average.png)
 
 ## Implementations
 1. **Algorithmic Logic:** Custom `for` loop iteration with `iloc` slicing to compute rolling windows manually.
